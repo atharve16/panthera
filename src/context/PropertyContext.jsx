@@ -12,7 +12,7 @@ export const PropertyProvider = ({ children }) => {
   const [totalPages, setTotalPages] = useState(1);
   const pageSize = 10;
 
-  const BASE_URL = "http://localhost:8080/api";
+  const BASE_URL = "https://panthera-rhp2.onrender.com/api";
 
   const fetchProperties = async (currentPage) => {
     setLoading(true);

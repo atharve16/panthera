@@ -14,7 +14,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const BASE_URL = "http://localhost:8080/api";
+  const BASE_URL = "https://panthera-rhp2.onrender.com/api";
 
   // Check for existing user session on app load
   useEffect(() => {
